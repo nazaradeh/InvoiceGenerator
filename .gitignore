@@ -1,2 +1,44 @@
-.zig-cache/
-zig-out/
+
+# Byte-compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Distribution/Packaging
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+sdist/
+var/
+*.tar.gz
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+
+# PyInstaller
+*.spec
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Coverage reports
+.coverage
+.coverage.*
+nosetests.xml
+pytest.xml
+tox.ini
+*.cover
+
+# MyPy
+.mypy_cache/
+.dmypy.json
